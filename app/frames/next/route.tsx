@@ -18,13 +18,13 @@ const frames = createFrames({
 
 const handleRequest = frames(async (ctx) => {
   return {
-    image:  `${appURL()}/1146.jpg` ,
+    image:  `${appURL()}/1146-2.jpg` ,
     imageOptions: {
       aspectRatio: "1:1",
     }, 
     buttons: [
-      <Button action="post" target="/next">
-      matsuda???
+      <Button action="post" target="/">
+      FREAK!!!!
     </Button>
     ],
   };
